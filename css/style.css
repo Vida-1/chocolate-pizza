@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#headLeft {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: left; */
+    background-color: aqua;
+}
+
+#headLeft>img {
+    width: 42px;
+    height: 45px;
+    display: flex;
+}
+
+#headRight {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: blueviolet;
+}
+
+#headRight>img {
+    width: 25px;
+    height: 24px;
+    display: flex;
+}
+
+#div1 {}
+
+#div2 {}
+
+#div3 {}
