@@ -1,13 +1,28 @@
+body {
+    display: flex;
+    width: 900px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+body > * {
+    width: 900px;
+}
+
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #headLeft {
     display: flex;
     flex-direction: row;
     /* justify-content: left; */
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #headLeft>img {
@@ -22,7 +37,9 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+    align-items: center;
+    /* padding-left: 50px; */
 }
 
 #headRight>img {
@@ -31,7 +48,19 @@ header {
     display: flex;
 }
 
-#div1 {}
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#div1 {
+    border-style: ridge;
+    border-color: gray;
+    height: 20px;
+}
 
 #div2 {}
 
